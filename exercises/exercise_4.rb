@@ -37,5 +37,5 @@ store = Store.create(
   puts mens_store.annual_revenue
 end
 
-@womens_stores = Store.where(womens_apparel: true, annual_revenue: ...1000000)
+@womens_stores = Store.where(womens_apparel: true, annual_revenue: ...1000000)   #"annual_revenue: ...1000000" means less than 1000000.
 #p @womens_stores
