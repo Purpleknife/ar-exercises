@@ -9,7 +9,7 @@ require_relative './exercise_6'
 puts "Exercise 7"
 puts "----------"
 
-# Your code goes here ...
+# Ask for user input and if it's not valid, output errors:
 
 puts "Please enter a new store name:"
 print "> "
